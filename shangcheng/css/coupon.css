@@ -1,0 +1,250 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	min-width: 1170px;
+}
+.wrap{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	background-color: #fafafa;
+}
+.content_in{
+	width: 1170px;
+	margin:0 auto;
+	/*background-color: pink;*/
+}
+.secon1{
+	width: 100%;
+	padding:30px 0 20px 0;
+}
+.secon1  a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+	vertical-align: middle;
+}
+.secon1 img{
+	vertical-align: middle;
+}
+/*优惠活动*/
+.secon_mshd{
+	width: 1170px;
+	height: 70px;
+	background:#e6e6e6;
+	display: flex;
+	margin-bottom: 20px;
+}
+.secon_mshd1{
+	width: 25%;
+	height: 70px;
+	margin:0 auto;
+}
+.timems{
+	width: 100%;
+	display: flex;
+	color: #fff;
+	font-size: 14px;
+
+}
+.mshd_time{
+	width: 25%;
+	font-size: 24px;
+	height: 70px;
+	line-height: 70px;
+	color: #fff;
+	padding-left: 50px;
+}
+.zzms{
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+.jjks_time{
+	width: 25%;
+	text-align: center;
+	margin-top: 18px;
+}
+.boxBor{
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 4px;
+	display: inline-block;
+	border:1px solid #666;
+	font-size: 14px;
+	color: #666;
+	vertical-align: middle;
+}
+/*banner*/
+.banner1{
+	width: 1170px;
+	display: flex;
+	height: 384px;
+}
+.bannLeft{
+	width: 866px;
+	height: 384px;
+	background-image: url(../imgs3/01.png);
+	margin-right: 20px;
+}
+.bannrightTop{
+	width: 284px;
+	height: 182px;
+	margin-bottom: 20px;
+}
+.ban1{
+	width: 284px;
+	height: 142px;
+	background:#ffbebe;
+	position: relative;
+}
+.ban3{
+	width: 284px;
+	height: 142px;
+	background:#beddff;
+	position: relative;
+}
+.banImg1{
+	width: 120px;
+	height: 105px;
+	background-image: url(../imgs3/02.png);
+	position: absolute;
+	top:45px;
+	left: 20px;
+}
+.banImg2{
+	width: 120px;
+	height: 100px;
+	background-image: url(../imgs3/03.png);
+	position: absolute;
+	top:55px;
+	left: 20px;
+}
+.rc_ban{
+	width: 66px;
+	height: 24px;
+	line-height: 24px;
+	background-color: red;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+.ban_sec{
+	position: absolute;
+	right: 20px;
+	top:60px;
+	width: 160px;
+	text-align-last: right;
+	color: #fff;
+}
+.seeBan{
+	width: 90px;
+	height: 26px;
+	border:1px solid #fff;
+	border-radius: 4px;
+	margin-left: 70px;
+	margin-top: 10px;
+	padding-right: 23px;
+	box-sizing: border-box;
+
+}
+.seeBan a{
+	text-decoration: none;
+	color: #Fff;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.ban2{
+	width: 284px;
+	height: 40px;
+	background:#feb6b6;
+}
+.ban4{
+	width: 284px;
+	height: 40px;
+	background:#b2d5fc;
+}
+/*列表1*/
+.listSec1{
+	width: 1170px;
+	margin:20px 0;
+	display: flex;
+}
+.listBox1
+{
+	width: 276px;
+	height: 350px;
+	background:#fff;
+	border:1px solid #fff;
+	position: relative;
+}
+.listSecBox1{
+	width: 276px;
+	height: 350px;
+	background:#fff;
+	border:1px solid #fff;
+	position: relative;
+}
+.listImg04{
+	width: 206px;
+	height: 185px;
+	background-image: url(../imgs3/04.png);
+	position: absolute;
+	top:100px;
+	left: 35px;
+}
+.listMb{
+	width: 276px;
+	height: 350px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top:0;
+	left: 0;
+	text-align: center;
+	padding-top:120px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 24px;
+}
+.ljck{
+	width: 120px;
+	height: 36px;
+	border:1px solid #fff;
+	border-radius: 4px;
+	margin:20px auto;
+}
+.ljck a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+.listBox1{
+	width: 276px;
+	height: 350px;
+	background:#fff;
+	border:1px solid #fff;
+}
+.listBox1 img{
+	padding-left: 100px;
+}
+.listBoxsec{
+	width: 276px;
+	height:95px;
+	background:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

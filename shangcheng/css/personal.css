@@ -1,0 +1,281 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	min-width: 1170px;
+	background: #f6f6f6;
+}
+.warp{
+	width: 100%;
+	background: #f6f6f6;
+}
+.header{
+	width: 100%;
+	/*height: 182px;*/
+	background: #fff;
+}
+.nav{
+	width:1170px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.nav_header{
+	width: 100%;
+	height: 154px;
+	background: #fff;
+	border-bottom: 1px solid #333;
+}
+.nav11{
+	width: 100%;
+	height: 34px;
+	background: #333;
+}
+.nav1{
+	width: 1170px;
+	height: 34px;
+	line-height: 34px;
+	margin:0 auto;
+	text-align: right;
+	font-size: 0;
+}
+.nav1 a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#999;
+	border-right:1px solid #666;
+	padding:0 14px;
+}
+.nav1 .wdsc{
+	border-right: none;
+}
+.nav2_nav3{
+	width: 100%;
+	font-size: 0;
+}
+.nav23{
+	width: 1170px;
+	margin:0 auto;
+}
+.nav2{
+	width: 1170px;
+}
+.nav_Logo{
+	display: inline-block;
+	width: 240px;
+	height: 60px;
+	vertical-align: middle;
+	background-image: url(../imgs/logo.png) ;
+	background-size: 100%;
+}
+.nav_Serch{
+	display: inline-block;
+	width:900px;
+	height: 37px;
+	text-align: right;
+	border-color: #666;
+	position: relative;
+	vertical-align: middle;
+}
+.nav2_search{
+	padding-left:10px;
+	padding-right: 40px;
+	outline: none;   
+	width: 180px;
+	height:28px;
+	border-radius: 48px ;
+	border:1px solid #999;
+	
+}
+.nav2_sspPog{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	top:6px;
+	right:160px;
+	
+
+}
+.nav2_tb{
+	display: inline-block;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top:3px;
+	right: 50px;
+	background-image: url(../imgs/souuso.png);
+	background-position: -12px -12px;
+	vertical-align: middle;
+}
+.shop_car{
+	vertical-align: middle;
+	margin-left:10px;
+	display: inline-block;
+	width: 25px;
+	height: 36px;
+	background-image: url(../imgs/carbye.png);
+	background-position: -14px -12px;
+}
+.nav3{
+	height: 60px;
+	line-height: 60px;
+	font-size: 0;
+}
+.nav3 a{
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+	margin:0 42px;	
+}
+.nav3 .nav3_index{
+	margin:0;
+	color: red;
+	margin-right:42px;
+	padding-bottom:15px;
+	border-bottom: 4px solid red;
+}
+.nav3 .nav3_index1{
+	margin:0;
+	margin-left:42px;
+}
+.nav3 a:hover{
+	color: red;
+	padding-bottom:16px;
+	border-bottom: 4px solid red;
+}
+/*内容*/
+.secation{
+	width: 100%;
+
+}
+.sectionTitle{
+	width: 1170px;
+	text-align: left;
+	margin:30px auto 20px;
+}
+.sectionTitle a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+.secPersonal{
+	width: 1170px;
+	margin:0 auto;
+	display: flex;
+}
+.secPersonal_list{
+	width: 200px;
+	height: 628px;
+	background: #fff;
+	margin-right: 20px;
+}
+ul li{
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	list-style: none;
+	box-sizing: border-box;
+	padding-left: 40px;
+}
+li a{
+	text-decoration: none;
+	color: #666;
+}
+.list_poson{
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	background: #e6e6e6;
+	margin:8px 0;
+   margin-bottom: 6px;
+}
+
+.listPoson{
+	margin-top:0;
+}
+.list_poson a{
+	font-size: 16px;
+    color: #333;
+}
+.poson1:hover{
+	color: red;
+}
+.secPersonal_sec{
+	width: 950px;
+	height: 600px;
+	background: #fff;
+}
+.Personal_secTop{
+	width: 950px;
+	height: 236px;
+	background: #fff;
+	display: flex;
+}
+.Per_secLeft{
+	width: 347px;
+	height: 200px;
+	line-height: 200px;
+	background: #fff;
+	margin:auto 0;
+	border-right: 1px solid gray;
+	display: flex;
+}
+.touxiang{
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+	background: #f6f6f6;
+	margin:auto 25px;
+}
+.xinxi{
+	padding-top:60px;
+}
+.xinxi li{
+	padding:0;
+	height: 20px;
+}
+.persec1{
+	margin:35px;
+
+}
+.persecleft{
+	float: left;
+	margin:20px 0;
+	margin-right: 160px;
+}
+.Personal_secBot{
+	width: 875px;
+	height: 120px;
+	margin:0 auto;
+	border-top:1px solid gray;
+}
+.Personal_secBot1{
+	border: none;
+	margin-top: 40px;
+}
+.perbotImg{
+	width: 80px;
+	height: 80px;
+	border:2px solid red;
+	border-radius: 80px;
+	background-image: url(../imgs2/ding.png);
+
+}
+.perbot1{
+	display: flex;
+	float: left;
+	margin:30px 200px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
