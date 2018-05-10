@@ -1,0 +1,19 @@
+body{
+	padding:0;
+	margin:0;
+}
+.fh{
+	position: fixed;
+	top:200px;
+	right: 50px;
+	text-align: center;
+	border:1px solid #333;
+	padding:20px;
+	background: #fff;
+}
+.fh a{
+	text-decoration: none;
+	color: #333;
+	margin:10px 0;
+	display: block;
+}
